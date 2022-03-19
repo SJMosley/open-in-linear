@@ -23,8 +23,8 @@ storage.get(["OINStatus", "OINCloseTab", "OINCloseTime", "OINWorkspaces"], funct
   let workspacesRegex = "(" + workspacesList.join("|") + ")";
   
   // Accumulated expression
-  let reservedExpression = "(https:\/\/www\.notion\.so\/)(?!" + reservedRegex + ").+";
-  let expression = "((https:\/\/www\.notion\.so\/)(native\/)?" + workspacesRegex + ").+";
+  let reservedExpression = "(https:\/\/www\.linear\.app\/)(?!" + reservedRegex + ").+";
+  let expression = "((https:\/\/www\.linear\.app\/)(native\/)?" + workspacesRegex + ").+";
   
   var notionReservedRegex = new RegExp(reservedExpression);
   let reservedMatch = notionReservedRegex.exec(tabUrl);
@@ -36,7 +36,7 @@ storage.get(["OINStatus", "OINCloseTab", "OINCloseTime", "OINWorkspaces"], funct
     if ((statusExt || statusExt == undefined) && reservedMatch != null) {
       if (match != null) {
         if (tabUrl.indexOf("/native/") == -1) {
-          loc.replace(tabUrl.replace(/^https?\:\/\//i, 'notion://'));
+          loc.replace(tabUrl.replace(/^https?\:\/\//i, 'linear://'));
         }
         if (linkTab) {
           setTimeout(() => {

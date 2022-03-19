@@ -1,18 +1,18 @@
-# Open in Notion Privacy Policy
+# Open in Linear Privacy Policy
 
 > Last updated: May 05, 2020
 
-This Privacy Policy describes my policies and procedures on the collection, use and disclosure of Your information when You use the Open in Notion and tells You about Your privacy rights.   
+This Privacy Policy describes my policies and procedures on the collection, use and disclosure of Your information when You use the Open in Linear and tells You about Your privacy rights.   
 
-By using the Open in Notion Chrome extension, You agree to the collection and use of information in accordance with this Privacy Policy.
+By using the Open in Linear Chrome extension, You agree to the collection and use of information in accordance with this Privacy Policy.
 
 # Requirements
-By installing the Open in Notion you allow it read and change your data on all notion.so sites.
+By installing the Open in Linear you allow it read and change your data on all linear.app sites.
 
 # Collecting and Using Your Personal Data
 
 ## Usage Data 
-Usage Data is collected automatically when using the Open in Notion extension. Usage Data may include information such as notion.so pages that you visit, extension settings from local storage of your Chrome browser.
+Usage Data is collected automatically when using the Open in Linear extension. Usage Data may include information such as linear.app pages that you visit, extension settings from local storage of your Chrome browser.
 
 ## Your Personal Data
 Your information is processed at the Chrome browser and your computer.      
@@ -32,4 +32,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 # Contact Me
 If you have any questions about this Privacy Policy, You can contact me:
 
-* by email: hi@sergosokin.ru
+* by email: samuel@sjmosley.com
