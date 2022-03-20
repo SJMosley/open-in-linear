@@ -1,8 +1,8 @@
 {
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "Open in Linear",
-   "version": "0.1.5.2",
-   "description": "Open share links in the your desktop app.",
+   "version": "0.0.0.1",
+   "description": "Open shared Linear links in your Linear desktop app.",
    "icons": {
       "128": "icons/icon-ext-128.png",
       "16": "icons/icon-ext-16.png",
@@ -10,9 +10,9 @@
       "32": "icons/icon-ext-32.png"
    },
    "background": {
-      "scripts": [ "js/background.js" ]
+      "service_worker": "js/background.js"
    },
-   "browser_action": {
+   "action": {
       "default_icon": {
          "128": "icons/icon-on-128.png",
          "16": "icons/icon-on-16.png",
@@ -28,9 +28,11 @@
    } ],
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkRArcrrxO2IKjjkEwkBx2PP7o5VO9BWwOXl/rDfAF1d+lE8bpxlt8Kjl1TolGaeqxKBDQZybH8H67ZmKRJWylvqHo0xNzmtaSt4/rhcjhAiZhFvp0y8ARvECJiYO8elFQ5RTCOhfKaWzMblfU0OlA5WBGVb1kf1kLCadyPj7eUap4rHqS33YbmcYP6sILs+HGzvL1Cx7AFgnpJHjfiYutDZyWq/GcMKYTQEOoLv2M6OsB8zhFiqI4KiycEyjpY1FHnSOF9oZ4KHfIKtN/1JWRBFezaCbaGGzTa2F1RqVE3rri37kPFWYck4Ob/YnAMVYcuDR3jzWzbdWmFQ5ZAxPUwIDAQAB",
    "options_ui": {
-      "chrome_style": true,
       "page": "options.html"
    },
-   "permissions": [ "storage", "*://*.linear.app/*" ],
+   "permissions": [ "storage"],
+   "host_permissions":[
+      "*://*.linear.app/*" 
+   ],
    "update_url": "https://clients2.google.com/service/update2/crx"
 }

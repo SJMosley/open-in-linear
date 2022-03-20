@@ -1,5 +1,5 @@
 var storage = chrome.storage.local;
-var action = chrome.browserAction;
+var action = chrome.action;
 var tabs = chrome.tabs;
 var toggle = false;
 
