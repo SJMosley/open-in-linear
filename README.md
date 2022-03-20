@@ -7,7 +7,7 @@ Extension is derived from the work of Sergey Osokin's
 ### This Chrome extension intercepts Linear links and redirects them to the [Linear desktop app](https://linear.app/download).   
 
 ## Preview
-![](https://ibb.co/Lxt17Z8)
+![](https://i.ibb.co/PchgH6N/Frame-2.jpg)
 
 ### Install
 1. Download and install [Linear desktop app](https://linear.app/download).
@@ -29,7 +29,7 @@ Extension is derived from the work of Sergey Osokin's
 
 ### Custom option
 Right-clicking on the extension icon shows you preferences popup.   
-![options](https://ibb.co/YNYxpFG)
+![options](https://i.ibb.co/cyMjDSd/Frame-3.jpg)
 
 ### Donate (optional)
 If you find this extension helpful, you can buy Sergey a coffee since he wrote the code!
